@@ -1,5 +1,5 @@
 "use strict";
-let numberOfFilms = 0;
+ let numberOfFilms = 0; 
 //numberOfFilms = +prompt('Сколько фильмов вы уже просмотрели?', 0);
 // console.log(numberOfFilms);
 
@@ -21,4 +21,4 @@ let a = prompt("Что смотрели недавно?",""),
 
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
-console.log(personalMovieDB.movies);
+console.log(personalMovieDB);
